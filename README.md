@@ -1,2 +1,1 @@
-# Project-
-This is a sample project 
+This Directory have many useful commands 
