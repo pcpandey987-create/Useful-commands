@@ -23,6 +23,6 @@ for i in range(1500):
 t.up()
 t.goto(0, -320)
 t.color("white")
-t.write("💗", align="center", font=("arial", 36, "bold"))
+t.write("done", align="center", font=("arial", 36, "bold"))
 
 turtle.done()
