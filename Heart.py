@@ -3,6 +3,8 @@
 import turtle
 import math
 
+text = input("Enter Your Text/Emoji to generate Heart : ")
+
 screen = turtle.Screen()
 screen.bgcolor("white")
 
@@ -21,6 +23,6 @@ for scale in range(11, 17):
         y = (13 * math.cos(angle) - 5 * math.cos(2 * angle) - 2 * math.cos(3 * angle) - math.cos(4 * angle)) * scale
         
         t.goto(x, y)
-        t.write("💝", align="center", font=("calibri", 13, "normal"))
+        t.write(text, align="center", font=("calibri", 13, "normal"))
 
 turtle.done()
