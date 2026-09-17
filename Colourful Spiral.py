@@ -13,10 +13,10 @@ t.hideturtle()
 
 hue = 0.0
 
-for i in range(1500):
+for i in range(540):
     color = colorsys.hsv_to_rgb(hue, 1, 1)
     t.pencolor(color)
-    t.forward(i * 0.2)
+    t.forward(i * 1.5)
     t.right(100)
     hue += 0.006
 
